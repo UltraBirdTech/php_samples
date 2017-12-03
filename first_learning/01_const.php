@@ -1,7 +1,7 @@
 <?php
-print "a\n";
-Print "b\n";
-PRINT "c\n";
-PrInT "d\n";
-pRiNt "e\n";
+print "Hello World\n";
+Print "Hello World\n";
+PRINT "Hello World\n";
+PrInT "Hello World\n";
+pRiNt "Hello World\n";
 
