@@ -8,3 +8,5 @@ var_dump(substr('aaaaaa', 0, 2));
 
 // 文字列の大文字
 var_dump(ucwords('aaaaa'));
+
+// 文字列の小文字
