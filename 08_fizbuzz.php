@@ -1,11 +1,14 @@
 <?php
   for($i = 1; $i < 100; $i++){
-    if($i % 3 == 0 && $i % 5 == 0) {
-      echo "$i: fizbuzz\n";
-    } else if($i % 3 == 0) {
-      echo "$i: fiz\n";
-    } else if ( $i % 5 == 0) {
-      echo "$i: buzz\n";
+    $s = '';
+    if ( $i % 3 == 0) {
+      $s = $s . 'fiz';
+    }
+    if ( $i % 5 == 0) {
+      $s = $s . 'buzz';
+    }
+    if ( $s != '' ) {
+      echo "$i: $s\n";
     }
   }
   
