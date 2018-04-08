@@ -1,11 +1,8 @@
 <?php
   $array = [];
   CONST ZUN_DOKO = array('ズン', 'ドコ');
-  $i = 0;    
   // loop
   while( true ) {
-    $i++;
- 
     $char = ZUN_DOKO[array_rand(ZUN_DOKO, 1)];
     print_r($char);
     array_push($array, $char);
