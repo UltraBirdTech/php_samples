@@ -11,7 +11,7 @@
     // array の長さが5の場合のみ確認する
     if ((count($array)) === ZUN_DOKO_CHECK_COUNT ) {
       // check
-      if ( implode('', $array) === ZUN_DOKO_STRING ) { 
+      if ( implode('', $array) === ZUN_DOKO_STRING ) {
         print_r("KI ☆ YO ☆ SHI !!\n");
         break;
       }
