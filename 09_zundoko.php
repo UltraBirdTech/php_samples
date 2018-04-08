@@ -6,10 +6,10 @@
     $char = ZUN_DOKO[array_rand(ZUN_DOKO, 1)];
     print_r($char);
     array_push($array, $char);
-    
-    if ((count($array)) > 4) {
+    // array の長さが5の場合のみ確認する
+    if ((count($array)) === 5) {
       // check
-      if ( implode('', $array) === 'ズンズンズンズンドコ') { 
+      if ( implode('', $array) === 'ズンズンズンズンドコ' ) { 
         print_r("KI ☆ YO ☆ SHI !!\n");
         break;
       }
