@@ -10,7 +10,7 @@ if(!isValid($target)) {
 // ビジネスロジックが続く
 
 /**
-* 何かしらの値（メールアドレスや電話番号）値が正当か確認するメソッド 
+* 何かしらの値（メールアドレスや電話番号）正当か確認するメソッド 
 */
 function isValid($target) {
   return false; // 実際は$targetの正当性を検証してtrue or false
