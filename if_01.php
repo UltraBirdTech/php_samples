@@ -1,8 +1,8 @@
 <?php
 
-$char = 'char';
+$target = 'valid target';
 
-if($char == !isValid($char)) {
+if($target == !isValid($target)) {
   echo 'true';
 } else {
   echo 'false';
@@ -11,6 +11,6 @@ if($char == !isValid($char)) {
 /**
 * 何かしらの値（メールアドレスや電話番号）の値が正当か確認するメソッド 
 */
-function isValid() {
-  return true; // 実際は検証してtrue or false
+function isValid($target) {
+  return true; // 実際は$targetの正当性を検証してtrue or false
 }
