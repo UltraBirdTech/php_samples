@@ -3,9 +3,9 @@
 $target = 'valid target';
 
 if($target == !isValid($target)) {
-  echo 'true';
+  echo 'true'; // 実際は業務ロジック
 } else {
-  echo 'false';
+  echo 'false'; // 実際はエラー処理（エラー文言入れて画面に表示)
 }
 
 /**
